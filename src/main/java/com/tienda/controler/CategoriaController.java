@@ -17,8 +17,8 @@ import lombok.extern.slf4j.Slf4j;
 
 
 @Controller
-@Slf4j //manejar solicitudes de HTTP
-@RequestMapping("/categoria") //ruta 
+@Slf4j 
+@RequestMapping("/categoria") 
 public class CategoriaController {
     
     @Autowired
